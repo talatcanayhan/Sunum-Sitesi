@@ -1,0 +1,17 @@
+{% extends "sunumapp/base.html" %}
+{% block content %}
+ <h1>Comments</h1>
+ 
+ {% for comment in comments %}
+    <div class="yorumblok">
+        <div class="isim">
+            {{ comment.isim }}:
+        </div>
+        <div class="yorum">
+            {{ comment.yorum }}         
+        </div>
+    </div>
+    <br><br>
+
+ {% endfor %}
+{% endblock %}

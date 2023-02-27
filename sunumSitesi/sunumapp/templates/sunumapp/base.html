@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+	<title>Sunum sitesi</title>
+
+</head>
+<body>
+	<nav>
+		<h2>MENU</h2>
+		<ul>
+			<li><a href="/">Anasayfa</a></li>
+			<li><a href="/sayfa1">Sayfa 1</a></li>
+			<li><a href="/sayfa2">Sayfa 2</a></li>
+			<li><a href="/sayfa3">Sayfa 3</a></li>
+		</ul>
+	</nav>
+	<div class="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+</body>
+</html>
