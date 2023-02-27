@@ -1,0 +1,7 @@
+https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
+
+https://www.csestack.org/create-html-form-insert-data-database-django/
+
+https://www.geeksforgeeks.org/form-as_p-render-django-forms-as-paragraph/
+
+https://psdtohtml.net/knowledge/html/how-to-create-box-html.html
